@@ -1,0 +1,149 @@
+
+.swiper-container {
+    width: 600px;
+    height: 500px;
+}
+.swiper-slide img{
+    width: 600px;
+    height: 500px;
+}
+
+.warp{
+    margin-left: 350px;
+}
+.wenzhang{
+    margin-top: 147px;
+    margin-bottom: 80px;
+}
+.wenzhang h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.wenzhang span{
+    color: #999999;
+    margin:0 8px;
+}
+.wenzhang p{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.hua{
+    margin-bottom: 35px;
+}
+
+.ping{
+    margin-bottom: 80px;
+}
+.ping textarea{
+    padding: 10px;
+    display: block;
+    width: 921px;
+    height: 200px;
+    border:1px #c2c2c2 solid;
+}
+.commonBtn{
+    margin-left: 838px;
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    border:1px seagreen solid;
+    background-color: green;
+    color: white;
+}
+.xinxi{
+    width: 921px;
+    height: 150px;
+    border-top: 1px #c7ddef solid;
+    border-bottom: 1px #c7ddef solid;
+    position: relative;
+}
+.xinxi .touxiang{
+    position: absolute;
+    top: 20px;
+    left: 18px;
+}
+.xinxi .touxiang img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.xinxi_txt{
+    margin-top: 18px;
+    margin-left: 80px;
+}
+.xinxi_txt h4{
+    margin:10px 0;
+}
+.xinxi_txt a{
+    color: green;
+    margin-right: 10px;
+}
+.yonghu{
+    border: 1px #eeeeee solid;
+    height: 500px;
+}
+.touxiang_right{
+    height: 80px;
+    position: relative;
+    border-bottom: 1px #eeeeee solid;
+}
+.touxiang_right img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+.yonghu_txt{
+    margin-left: 80px;
+    margin-top: 18px;
+}
+.yonghu_tx p{
+    color: darkgray;
+}
+.guanzhu{
+    width: 78px;
+    height: 30px;
+    background-color: #46d233;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 60px;
+}
+.guanzhu a{
+    color: white;
+}
+.toupiao{
+    margin-top: 70px;
+}
+.toupiao .zans{
+    display: block;
+    width: 300px;
+    height: 40px;
+    background-color: #46d233;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+.toupiao .zan{
+    display: block;
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    border: 1px #e0e0e0 solid;
+    margin-bottom: 8px;
+    margin-left: 10px;
+
+}
+.toupiao .zan:hover{
+    border: 1px #46d233 solid;
+    color: #46d233;
+}

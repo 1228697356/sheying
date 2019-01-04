@@ -20,5 +20,4 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-//Route::get('/venue/list','home\VenueController@list');
-//Route::get('/venue/type/{id}','home\VenueController@type');
+Route::get('/post/list','home\VenueController@index');

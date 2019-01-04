@@ -9,11 +9,13 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-
     <!-- Styles -->
+    <link href="{{ asset('css/list.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/base.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/reser.css') }}" rel="stylesheet">
     <link href="{{ asset('css/swiper.min.css') }}" rel="stylesheet">
+
 </head>
 <body>
     <div id="app">
@@ -84,3 +86,28 @@
     <script src="{{ asset('js/swiper.min.js') }}"></script>
 </body>
 </html>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+         // 垂直切换选项
+        loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // 如果需要滚动条
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+
+</script>
+
+
